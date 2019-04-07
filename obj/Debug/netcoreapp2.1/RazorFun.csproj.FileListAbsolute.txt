@@ -46,3 +46,4 @@ D:\CodingDojo\csharp\SurveyForm\obj\Debug\netcoreapp2.1\RazorFun.Views.pdb
 D:\CodingDojo\csharp\SurveyForm\obj\Debug\netcoreapp2.1\RazorFun.dll
 D:\CodingDojo\csharp\SurveyForm\obj\Debug\netcoreapp2.1\RazorFun.pdb
 D:\CodingDojo\csharp\SurveyForm\obj\Debug\netcoreapp2.1\RazorFun.csproj.CopyComplete
+D:\CodingDojo\csharp\SurveyForm\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs

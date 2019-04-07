@@ -1,17 +1,26 @@
+ @model Survey
 <body>
-<form action = "/result" method="post">
-Name: <input type ="text" name="Name"><br>
-Location: <select name = "Location">
+<form asp-action="Result" asp-controller="First" method="post">
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Name"></label>
+        <input asp-for="Name"><br>
+        <span asp-validation-for="Location"></span>
+        <label asp-for="Location"></label>
+Location: <select asp-for= "Location">
     <option value = "Seattle">Seattle</option>
     <option value = "LA">LA</option>
     <option value = "NY">NY</option>
 </select><br>
-Favorite Language: <select name = "Language">
+<span asp-validation-for="Language"></span>
+        <label asp-for="Language"></label>
+Favorite Language: <select asp-for= "Language">
     <option value = "c#">C#</option>
     <option value = "js">JS</option>
     <option value = "python">Pyhton</option>
 </select><br>
 Comment: <br>
+<span asp-validation-for="Comment"></span>
+        <label asp-for="Comment"></label>
 <textarea name = "Comment"></textarea>
 <button>Submit</button>
 </form>

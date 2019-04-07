@@ -15,7 +15,10 @@ namespace FirstProject.Controllers
         [HttpPost("result")]
         public IActionResult Result(Survey survey)
         {
-            return View("Result", survey);
+            if(ModelState.IsValid)
+                return View("Result", survey);
+            else
+                return View("Index");
         }
     }
 }
