@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CodingDojo\\csharp\\RazorFun\\RazorFun.csproj",
+      "projectUniqueName": "D:\\CodingDojo\\csharp\\SurveyForm\\RazorFun.csproj",
       "projectName": "RazorFun",
-      "projectPath": "D:\\CodingDojo\\csharp\\RazorFun\\RazorFun.csproj",
+      "projectPath": "D:\\CodingDojo\\csharp\\SurveyForm\\RazorFun.csproj",
       "packagesPath": "C:\\Users\\sspaw\\.nuget\\packages\\",
-      "outputPath": "D:\\CodingDojo\\csharp\\RazorFun\\obj\\",
+      "outputPath": "D:\\CodingDojo\\csharp\\SurveyForm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
